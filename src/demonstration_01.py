@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Challenge #1:
 
@@ -17,4 +18,4 @@ Notes:
 
 def last(a, n):
     # Your code here
-
+    pass
