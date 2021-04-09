@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Challenge #1:
 
@@ -17,4 +18,16 @@ Notes:
 
 def last(a, n):
     # Your code here
+    if n == 0:
+        return []
+    if len(a) < n:
+        return 'invalid'
+    return a[-n:]
 
+my_list = [4, 3, 9, 9, 7, 6, 12]
+
+print(last(my_list, 0))
+print(last(my_list, 9))
+print(last(my_list, 3))
+print(my_list[4:0:-1]) # -1 -- go backwards
+print(my_list[4:0:-2]) # -2 -- go backwards and select every two in array/list

@@ -16,4 +16,7 @@ Notes:
 
 def multiply_nums(nums):
     # Your code here
+    for item in list(nums):
+        print(item)
 
+print(multiply_nums("2, 3"))

@@ -17,4 +17,28 @@ Notes:
 
 def add_indexes(numbers):
     # Your code here
+    new_list = []
 
+    for index, value in enumerate(numbers):
+        sum = index + value
+        # add value to the new_list
+        new_list.append(sum)
+
+    return new_list
+
+my_list = [1, 2, 3, 4, 5]
+print(add_indexes(my_list)) # [1, 3, 5, 7, 9]
+
+# print just the indeces in the range
+# for item in range(len(my_list)):
+#     print(item)
+
+# print all values in the list
+# for val in my_list:
+#     print(val)
+
+# print both value AND index in a list
+# print(list(enumerate(my_list)))
+
+# for item, value in enumerate(my_list):
+#     print(item, value)
